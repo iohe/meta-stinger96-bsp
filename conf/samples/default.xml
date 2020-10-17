@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+  <remote fetch="git://git.yoctoproject.org/" name="poky"/>
+  <remote fetch="https://github.com/linuxdev-linumiz/" name="linumiz"/>
+
+  <project remote="poky" revision="dunfell" name="poky" path="stinger96"/>
+  <project remote="linumiz" revision="master" name="meta-stinger96-bsp" path="stinger96/meta-stinger96-bsp"/>
+</manifest>
